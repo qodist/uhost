@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.box1 {
+    border: solid orange 3px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 100px 25px 40px 50px;
+    margin: 100px 0;
+    height: 300px;
+    width: 50%;
+    display: inline-block;
+    /* visibility: hidden;  */
+}
+
+.box2 {
+    border: solid violet 3px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 100px 25px 40px 50px;
+    margin: 100px 0;
+    display: inline-block;
+    /* width: 50%; */
+}
+
+div:last-of-type:hover {
+    background-color: violet;
+    border: solid red 3px;
+}
